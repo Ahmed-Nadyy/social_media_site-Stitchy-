@@ -108,7 +108,7 @@ header{
     width: 50%;
 }
 
-input[type="email"], input[type="password"]{
+input[type="email"], input[type="password"], input[type="text"] {
     width: 100%;
     padding: 10px;
     margin: 5px -10px;
@@ -116,22 +116,14 @@ input[type="email"], input[type="password"]{
     border: 1.5px solid var(--border-color);
 }
 
-.under_password{
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    
-
-}
 .remember-me {
     margin-top: 10px;
     text-align: left;
-    color: var(--link-color);
+    color: var(--black-color);
 }
 
 .recover-password {
     color: var(--link-color);
-    display: block;
     margin-top: 10px;
     text-align: right;
 }
