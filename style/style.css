@@ -1,0 +1,180 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-column {
+    flex: 1;
+    background-color: #f3f2f3;
+    padding: 20px;
+}
+
+.right-column {
+    width: 30%;
+    height: 100vh;
+}
+.right-column img{
+    width: 100%;
+    height: 99.5vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #014284;
+
+}
+
+.signup-link {
+    text-align: right;
+    margin-top: 20px;
+    color: black;
+}
+
+.content h1{
+    color: #014284;
+}
+.content {
+    text-align: center;
+    margin-top: 50px;
+    color: #000000;
+
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.facebook-button, .google-button {
+    background-color: #abe1fb;
+    color: black;
+    margin: 5px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.or-divider {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.or-divider span{
+    margin: 0 5%;
+    
+}
+.left_divider , .right_divider{
+    width: 30%;
+    height: 1.5px;
+    background-color: #a8a8a8;
+}
+
+.login-form {
+    margin-top: 20px;
+    width: 50%;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px -10px;
+    border-radius: 5px;
+    border: 1.5px solid #abe1fb;
+}
+
+.under_password{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    
+
+}
+.remember-me {
+    margin-top: 10px;
+    text-align: left;
+    color: #4a7bb5;
+}
+
+.recover-password {
+    color: #4a7bb5;
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.login-button {
+    background-color: #014284;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .right-column {
+        display: none;
+        width: 0%;
+        height: 0vh;
+    }
+
+    header{
+        display: block;
+        /* justify-content: space-between; */
+        align-items: center;
+    
+
+    }
+    .logo {
+        color: #014284;
+        font-size: 2vh;
+    }
+    
+    .signup-link {
+        font-size: 2vh;
+        text-align: left;
+        margin-top: 20px;
+        color: black;
+    }
+    .or-divider {
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .login-form {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
