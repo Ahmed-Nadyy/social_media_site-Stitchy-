@@ -21,7 +21,7 @@ body, html {
 .container {
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 100vh;
 }
 
 .left-column {
@@ -32,11 +32,11 @@ body, html {
 
 .right-column {
     width: 30%;
-    height: inherit;
+    height: 100vh;
 }
 .right-column img{
     width: 100%;
-    height: inherit;
+    height: 99.5vh;
 }
 header{
     display: flex;
