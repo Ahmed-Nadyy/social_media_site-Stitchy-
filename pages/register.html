@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="../style/register.css">
 </head>
 <body>
@@ -29,11 +29,11 @@
                     <div class="right_divider"></div>
                 </div>
             
-                <form class="login-form">
+                <form class="login-form" id="registration-form">
                     <input type="text" placeholder="NickName">
                     <input type="text" placeholder="Username">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
+                    <input type="email" placeholder="Email" id="username">
+                    <input type="password" placeholder="Password" id="password">
                     <div class="under_password">
                     <div class="remember-me">
                         <input type="checkbox" id="remember-me">
@@ -50,5 +50,6 @@
             <img src="../images/login.jpg" alt="Image" >
         </div>
     </div>
+    <script src="../js/register.js"></script>
 </body>
 </html>
