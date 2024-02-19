@@ -16,7 +16,7 @@ const dark=()=>{
 
 const sun=()=>{
     const root = document.documentElement;
-    // document.getElementById('right-column').style.display = 'inline-block';
+    document.getElementById('right-column').style.display = 'inline-block';
     document.getElementById('sun-shape').style.display = 'none';
     document.getElementById('moon-shape').style.display = 'flex';
     root.style.setProperty('--back-color-essencially', '#f3f2f3');
