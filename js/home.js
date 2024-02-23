@@ -33,30 +33,30 @@ const sun=()=>{
     root.style.setProperty('--input-type-text-color', '#ffffff  ');
 }
 
-const mediaQuery = window.matchMedia('(max-width: 1350px)');
-const mediaQuery_2 = window.matchMedia('(max-width: 768px)');
+// const mediaQuery = window.matchMedia('(max-width: 1350px)');
+// const mediaQuery_2 = window.matchMedia('(max-width: 768px)');
 
-function handleMediaQueryChange(mediaQuery) {
-    if (mediaQuery.matches) {
-        document.getElementById('right-column').style.display = 'none';  
-    }
-}
-handleMediaQueryChange(mediaQuery);
-mediaQuery.addListener(handleMediaQueryChange);
+// function handleMediaQueryChange(mediaQuery) {
+//     if (mediaQuery.matches) {
+//         document.getElementById('right-column').style.display = 'none';  
+//     }
+// }
+// handleMediaQueryChange(mediaQuery);
+// mediaQuery.addListener(handleMediaQueryChange);
 
-function handleMediaQueryChange(mediaQuery_2) {
-    if (mediaQuery_2.matches) {
-        document.getElementById('right-column').style.display = 'none';  
-    }
-}
-handleMediaQueryChange(mediaQuery_2);
-mediaQuery_2.addListener(handleMediaQueryChange);
+// function handleMediaQueryChange(mediaQuery_2) {
+//     if (mediaQuery_2.matches) {
+//         document.getElementById('right-column').style.display = 'none';  
+//     }
+// }
+// handleMediaQueryChange(mediaQuery_2);
+// mediaQuery_2.addListener(handleMediaQueryChange);
 
-handleMediaQueryChange(mediaQuery_2);
-mediaQuery_2.addListener(handleMediaQueryChange);
-handleMediaQueryChange(mediaQuery);
-mediaQuery.addListener(handleMediaQueryChange);
-handleMediaQueryChange(mediaQuery_2);
-mediaQuery_2.addListener(handleMediaQueryChange);
-handleMediaQueryChange(mediaQuery);
-mediaQuery.addListener(handleMediaQueryChange);
+// handleMediaQueryChange(mediaQuery_2);
+// mediaQuery_2.addListener(handleMediaQueryChange);
+// handleMediaQueryChange(mediaQuery);
+// mediaQuery.addListener(handleMediaQueryChange);
+// handleMediaQueryChange(mediaQuery_2);
+// mediaQuery_2.addListener(handleMediaQueryChange);
+// handleMediaQueryChange(mediaQuery);
+// mediaQuery.addListener(handleMediaQueryChange);
