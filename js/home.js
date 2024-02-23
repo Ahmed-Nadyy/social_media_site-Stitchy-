@@ -3,14 +3,16 @@ const dark=()=>{
     const root = document.documentElement;
     root.style.setProperty('--back-color-essencially', '#014284');
     root.style.setProperty('--white-color', '#abe1fb');
+    root.style.setProperty('--headers-color-two', '#abe1fb');
+    root.style.setProperty('--border-col-two', '#abe1fb');
     root.style.setProperty('--bttn-color-background-second', '#014284');
     root.style.setProperty('--black-color', '#abe1fb');
     root.style.setProperty('--bttn-color-background-first', '#4a7bb5');
     root.style.setProperty('--input-background-color', '#014284');
-    root.style.setProperty('--input-type-text-color', '#abe1fb  ');
-    document.getElementById('right-column').style.display = 'none';
+    root.style.setProperty('--input-type-text-color', '#abe1fb');
     document.getElementById('moon-shape').style.display = 'none';
     document.getElementById('sun-shape').style.display = 'flex';
+    document.getElementById('stitchImg').src = '../images/';
     
 }
 
@@ -19,8 +21,11 @@ const sun=()=>{
     // document.getElementById('right-column').style.display = 'inline-block';
     document.getElementById('sun-shape').style.display = 'none';
     document.getElementById('moon-shape').style.display = 'flex';
+    document.getElementById('stitchImg').src = '../images/suggestion-01.png';
     root.style.setProperty('--back-color-essencially', '#f3f2f3');
     root.style.setProperty('--white-color', '#ffffff');
+    root.style.setProperty('--border-col-two', '#014284');
+    root.style.setProperty('--headers-color-two', '#014284');
     root.style.setProperty('--bttn-color-background-second', '#abe1fb');
     root.style.setProperty('--black-color', '#000000');
     root.style.setProperty('--bttn-color-background-first', '#014284');
