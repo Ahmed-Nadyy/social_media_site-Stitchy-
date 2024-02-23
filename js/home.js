@@ -18,7 +18,6 @@ const dark=()=>{
 
 const sun=()=>{
     const root = document.documentElement;
-    // document.getElementById('right-column').style.display = 'inline-block';
     document.getElementById('sun-shape').style.display = 'none';
     document.getElementById('moon-shape').style.display = 'flex';
     document.getElementById('stitchImg').src = '../images/suggestion-01.png';
